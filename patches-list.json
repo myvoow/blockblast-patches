@@ -1,0 +1,74 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Disable telemetry",
+      "description": "Blocks analytics, attribution and crash reporting: Firebase Analytics, Crashlytics, AppsFlyer, Bugsnag, ThinkingData, TikTok, Facebook app events and the trackers of Hungry Studio. Turns off their collection flags and removes the advertising id permissions. Login, cloud save, purchases and Remote Config keep working.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.block.juggle",
+          "name": "Block Blast!",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#3B6FE0",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "11.0.6",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Version the patches were developed with"
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove ads",
+      "description": "Removes every ad: interstitials, app open ads, banners and rewarded videos. Rewarded ads give their reward instantly, so revives and the other rewards need no video. AppLovin MAX and the ad networks it mediates are never started, and the ad servers are blocked.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.block.juggle",
+          "name": "Block Blast!",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#3B6FE0",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "11.0.6",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Version the patches were developed with"
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
